@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<title>Weather check</title>
+<style>
+    body {
+        background-image: url('assets/background-images/default-background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container d-flex">
+    <div class="row col-md-8 mx-auto" id="the-one">
+        <div class="banner text-center">
+            <h3 id="welcome">Let's check the weather</h3>
+        </div>
+        <div class="d-flex justify-content-center form-container" id="form-container">
+            <form action="" class="location-form">
+                <label for="zipcode">Enter Zipcode</label>
+                <input type="text" name="zipcode-field" id="zipcode-input">
+                <button class="btn btn-warning" type ="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div class="container weather-data">
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<script src="js/alternate.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

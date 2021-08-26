@@ -1,0 +1,40 @@
+
+#the-one{
+    background-color: rgba(227, 227, 248, 0.85);
+    border-radius: 5vw;
+    padding: 1vw;
+    margin-top: 4vw;
+};
+
+.location-form{
+    padding-top: 0.5vw;  
+};
+
+#submit{
+    padding: 0.25vw 1vw;
+    vertical-align: inherit
+};
+
+
+.moon_icon{
+    height: 10%;
+    width: auto;
+    max-height: 100%;
+};
+
+h4 {
+    text-transform: capitalize;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 3s forwards;
+}
