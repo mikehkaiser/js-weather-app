@@ -14,7 +14,11 @@
     padding: 0.25vw 1vw;
     vertical-align: inherit
 };
-
+body {
+    background-image: url('../assets/background-images/default-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .moon_icon{
     height: 10%;

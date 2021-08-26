@@ -13,9 +13,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="/css/main.css">
 <title>Weather check</title>
+
 <style>
     body {
-        background-image: url('/assets/background-images/default-background.jpg');
+        background-image: url('./assets/background-images/default-background.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -41,6 +42,24 @@
         </div>
     </div>
 </div>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
 
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyB49t5YN9Eiq-w4E8G7EbR5yqXJyK8F-Wc",
+        authDomain: "weather-check-3fd18.firebaseapp.com",
+        projectId: "weather-check-3fd18",
+        storageBucket: "weather-check-3fd18.appspot.com",
+        messagingSenderId: "1083249251736",
+        appId: "1:1083249251736:web:7c2e2f5656ca21aea507ed"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
